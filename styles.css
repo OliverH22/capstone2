@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0; 
+    background-color: #E1E9F0;   
+  }
+
+  #content {
+    margin-top: 100px;
+    font-size: 2em;
+    text-align: center;
+    display: block;
+  }  
+
+  #c1 {
+      background-color: #2273B8;
+  }
+
+  #c2{
+      background-color: #E1E9F0;
+  }
+  #c3 {
+    background-color: #2273B8;
+}
+#c4{
+    background-color: #E1E9F0;
+}
+#footer{
+    background-color: #222E3A;
+}
