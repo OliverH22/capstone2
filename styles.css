@@ -3,11 +3,29 @@ html, body {
     width: 100%;
     margin: 0;
     padding: 0; 
-    background-color: #E1E9F0;   
+    background-color: #0f3b61;   
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+  }
+
+  button{
+    border-radius: 12px;
+    font-size: 25px;
+    font-weight: 100;
+    background-color: #2273B8;
+    color: white;
+  }
+  p{
+    font-size: 15px;
+    padding-left: 3rem;
+  }
+
+  h3{
+    padding-left: 2rem;
   }
 
   #content {
-    position: absolute;
+    /*position: absolute;*/
     margin-top: 100px;
     font-size: 2em;
     text-align: center;
@@ -15,52 +33,48 @@ html, body {
   }  
 
   #c1 {
-    position: absolute;
+    /*position: absolute;*/
     background-color: #2273B8;
-    font-family: Quiet Sans;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /*Quiet Sans;*/
     font-size: 36px;
     font-style: normal;
-    font-weight: 700;
     line-height: 43px;
     letter-spacing: 0.02em;
     text-align: left;
   }
 
   #c2{
-    position: absolute;
-    background-color: #E1E9F0;
-    font-family: Quiet Sans;
+    /*position: absolute;*/
+    background-color: #0f3b61;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 36px;
     font-style: normal;
-    font-weight: 700;
     line-height: 43px;
     letter-spacing: 0.02em;
     text-align: left;
   }
   #c3 {
-    position: absolute;
+    /*position: absolute;*/
     background-color: #2273B8;
-    font-family: Quiet Sans;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 36px;
     font-style: normal;
-    font-weight: 700;
     line-height: 43px;
     letter-spacing: 0.02em;
     text-align: left;
 }
 #c4{
-    position: absolute;
-    background-color: #E1E9F0;
-    font-family: Quiet Sans;
+    /*position: absolute;*/
+    background-color: #0f3b61;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 36px;
     font-style: normal;
-    font-weight: 700;
     line-height: 43px;
     letter-spacing: 0.02em;
     text-align: left;
 }
 #footer{
-    position: absolute;
+   padding-right: 100vw;
     background-color: #222E3A;
     
 }
