@@ -1,3 +1,7 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
 html, body {
     height: 100%;
     width: 100%;
@@ -9,20 +13,75 @@ html, body {
   }
 
   button{
-    border-radius: 12px;
-    font-size: 25px;
+    /* border-radius: 12px; */
+    border: none;
+    font-size: 15px;
     font-weight: 100;
     background-color: #2273B8;
     color: white;
-  }
-  p{
-    font-size: 15px;
-    padding-left: 3rem;
+    text-align: center;
+    padding: 20px 30px;
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
   }
 
-  h3{
-    padding-left: 2rem;
+  /* p {
+    font-size: 15px;
+    font-family: Poppins;
+    padding-left: 3rem; 
+  } */
+
+  .pW {
+    font-size: 15px;
+    font-family: Poppins;
+    color: #E1E9F0; 
+    line-height: 30px;
   }
+
+  .pB {
+    font-size: 15px;
+    font-family: Poppins;
+    color: #222E3A;
+    line-height: 30px; 
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  #cHeadingW {
+    color: #E1E9F0;
+  }
+
+  #cHeadingB {
+    color: #2273B8;
+  }
+
+
+  h3{
+    /* padding-left: 2rem; */
+    color: #222E3A;
+  }
+
+  h4 {
+    color: #E1E9F0;
+  }
+
+  #headingMain {
+    color: #E1E9F0;
+    font-size: 2em;
+    padding: 20px;
+  }
+
+  #pMain {
+    font-size: 15px;
+    font-family: Poppins;
+    color: #E1E9F0; 
+    line-height: 30px;
+    padding: 20px;
+  }
+
 
   #content {
     /*position: absolute;*/
@@ -32,27 +91,35 @@ html, body {
     display: block;
   }  
 
+  #c0 {
+    
+  }
+
   #c1 {
     /*position: absolute;*/
     background-color: #2273B8;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /*Quiet Sans;*/
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; Quiet Sans; */
     font-size: 36px;
     font-style: normal;
     line-height: 43px;
     letter-spacing: 0.02em;
     text-align: left;
+    padding: 20px;
   }
 
   #c2{
     /*position: absolute;*/
-    background-color: #0f3b61;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* background-color: #0f3b61; */
+    background-color: #E1E9F0;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
     font-size: 36px;
     font-style: normal;
     line-height: 43px;
     letter-spacing: 0.02em;
     text-align: left;
+    padding: 20px;
   }
+
   #c3 {
     /*position: absolute;*/
     background-color: #2273B8;
@@ -62,21 +129,26 @@ html, body {
     line-height: 43px;
     letter-spacing: 0.02em;
     text-align: left;
+    padding: 20px;
 }
+
 #c4{
     /*position: absolute;*/
-    background-color: #0f3b61;
+    /* background-color: #0f3b61; */
+    background-color: #E1E9F0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 36px;
     font-style: normal;
     line-height: 43px;
     letter-spacing: 0.02em;
     text-align: left;
+    padding: 20px;
 }
-#footer{
-   padding-right: 100vw;
-    background-color: #222E3A;
-    
+
+#footer {
+  padding-right: 100vw;
+  background-color: #222E3A;
+  padding: 20px;
 }
 
 
@@ -90,7 +162,10 @@ html, body {
 
     background: rgba(34, 46, 58, 0.35);
     opacity: 0;
-    backdrop-filter: blur(22px);
+
+    /* Look at what backdrop filter does */
+    /* filter: blur(22px); */
+    /* backdrop-filter: blur(22px); */
   }
 }
 
@@ -104,7 +179,9 @@ html, body {
 
     background: rgba(34, 46, 58, 0.35);
     opacity: 0;
-    backdrop-filter: blur(22px);
+
+    /* Look at what backdrop filter does */
+    /* backdrop-filter: blur(22px); */
   }
 }
 /* Beginning page css */
