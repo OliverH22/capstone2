@@ -92,7 +92,9 @@ html, body {
   }  
 
   #c0 {
-    
+    background-image: url("img/floating\ bottle.png");
+    width: auto;
+    height: auto;
   }
 
   #c1 {
