@@ -10,58 +10,412 @@ html, body {
     background-color: #0f3b61;   
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
-  }
-
-  button{
-    /* border-radius: 12px; */
-    border: none;
-    font-size: 15px;
-    font-weight: 100;
-    background-color: #2273B8;
-    color: white;
-    text-align: center;
-    padding: 20px 30px;
-    width: 300px;
-    display: inline-block;
-    margin: 10px;
-  }
-
-  /* p {
-    font-size: 15px;
-    font-family: Poppins;
-    padding-left: 3rem; 
-  } */
-
-  .pW {
-    font-size: 15px;
-    font-family: Poppins;
-    color: #E1E9F0; 
-    line-height: 30px;
-  }
-
-  .pB {
-    font-size: 15px;
-    font-family: Poppins;
-    color: #222E3A;
-    line-height: 30px; 
+    overflow-x: hidden;
   }
 
   h1 {
     text-align: center;
   }
 
-  #cHeadingW {
+  h4 {
     color: #E1E9F0;
+    font-size: 54px;
+    margin: 20px;
   }
 
-  #cHeadingB {
-    color: #2273B8;
+  #foot {
+    color: #E1E9F0;
+    font-size: 24px;
+    margin: 20px;
+  }
+
+  #content {
+    margin-top: 100px;
+    font-size: 2em;
+    text-align: center;
+    display: block;
+  }  
+
+  #c02 {
+     background-image: url("img/underwater_light.png");
+     background-repeat: no-repeat;
+     background-size: cover; 
+     width: 100vw;
+    height: 100vh;    
+  }
+
+  #cLanding {
+  position: absolute;
+  width: 558px;
+  height: 144px;
+  left: 700px;
+  top: 100px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 800;
+  font-size: 144px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #E1E9F0;
+  }
+
+#pLanding {
+  position: absolute;
+  width: 502px;
+  height: 58px;
+  left: 725px;
+  top: 306px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #E1E9F0;
+  }
+
+  #pLandingB {
+    position: absolute;
+    width: 502px;
+    height: 58px;
+    left: 725px;
+    top: 406px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #E1E9F0;
+    }
+
+  /* Header Section */
+  #c0 {
+    background-image: url("img/floating\ bottle.png");
+    width: 100vw;
+    height: 100vh;
+  }
+
+  #headContainer {
+    width: 500px;
+    padding-left: 35%;
+  }
+
+  #headingMain {
+    color: #E1E9F0;
+    font-size: 4em;
+  }
+
+  #pMain {
+    font-size: 18px;
+    font-family: Poppins;
+    color: #E1E9F0; 
+    line-height: 30px;
+    width: 45%;
   }
 
 
-  h3{
-    /* padding-left: 2rem; */
+
+  /* Quantity Section */
+
+  #c1 {
+    background-color: #2273B8;
+    font-size: 36px;
+    font-style: normal;
+    line-height: 43px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+
+  #c1Content {
+    padding: 75px;
+    padding-top: 30px;
+    height: 100vh;
+  }
+
+  #c1a {
+    background-color: #2273B8;
+    padding: 20px;
+  }
+
+  #sub1Heading {
+    font-size: 56px;
+    line-height: 63px;
     color: #222E3A;
+  }
+
+  #c1aHeading {
+    color: #E1E9F0;
+    text-align: center;
+  }
+
+  .pQ {
+    font-size: 15px;
+    font-family: Poppins;
+    color: #E1E9F0; 
+    line-height: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  #qHeading {
+    color: #E1E9F0;
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .grid1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+  }
+
+
+  /* The Source Section */
+
+  #c2 {
+    background-color: #E1E9F0;
+    font-size: 36px;
+    font-style: normal;
+    line-height: 43px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+
+  #c2Content {
+    padding: 75px;
+    padding-top: 10px;
+    height: 100vh;
+  }
+
+  #c2a {
+    background-color: #E1E9F0;
+    padding: 20px;
+  }
+
+  #sub2Heading {
+    font-size: 56px;
+    line-height: 63px;
+    color: #222E3A;
+    width: 500px;
+  }
+
+  #c2aHeading {
+    color: #2273B8;
+    text-align: center;
+  }
+
+  #sHeading {
+    color: #2273B8;
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .pS {
+    font-size: 15px;
+    font-family: Poppins;
+    color: #222E3A;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+
+  .grid2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+  }
+
+
+
+  /* Effects and Take Action Sections */
+
+  /* Effects */
+  #c3 {
+    background-color: #2273B8;
+    font-size: 36px;
+    font-style: normal;
+    line-height: 43px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+
+  #c3Content {
+    padding: 75px;
+    padding-top: 10px;
+    height: 100vh;
+  }
+
+  #eHeading {
+    color: #E1E9F0;
+    text-align: center;
+    font-size: 2em;
+  }
+
+  #sub3Heading {
+    font-size: 56px;
+    line-height: 63px;
+    color: #222E3A;
+  } 
+
+  .pE {
+    font-size: 15px;
+    font-family: Poppins;
+    color: #E1E9F0; 
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+
+  /* Take Action  */
+  #c4 {
+      background-color: #E1E9F0;
+      font-size: 36px;
+      font-style: normal;
+      line-height: 43px;
+      letter-spacing: 0.02em;
+      text-align: left;
+  }
+
+  #c4Content {
+    padding: 75px;
+    padding-top: 10px;
+    height: 100vh;
+  }
+
+  #tHeading {
+    color: #2273B8;
+    text-align: center;
+    font-size: 2em;
+  }
+
+  #sub4Heading {
+    font-size: 56px;
+    line-height: 63px;
+    width: 600px;
+    margin-bottom: 40px;
+    color: #222E3A;
+  } 
+
+  .pT {
+    font-size: 15px;
+    font-family: Poppins;
+    color: #222E3A;
+    line-height: 30px; 
+    margin-bottom: 20px;
+  }
+
+  button {
+    border: none;
+    font-size: 15px;
+    font-weight: 100;
+    background-color: #2273B8;
+    color: white;
+    padding: 20px 30px;
+    width: 500px;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+
+  #buttonContainer {
+    text-align: center;
+  }
+
+  .grid3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+  }
+
+
+  #footer {
+    padding-right: 100vw;
+    background-color: #222E3A;
+    padding: 20px;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+  }
+
+  /*simulate page*/
+  #timeline {
+    width: 100%;
+  }
+
+  #pollrate {
+    width: 100%;
+  }
+
+  .slider {
+    -webkit-appearance: none;    
+    width: 20%; 
+    height: 5px; 
+    background: #e1e9f0;
+    
+  }
+
+  .slider::-webkit-slider-thumb { 
+    -webkit-appearance: none; 
+    appearance: none;  
+    width: 25px; 
+    height: 10px;
+    background: white;    
+  }
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #f8f8f8;
+    cursor: pointer;
+  }
+
+  .myButton {
+    background-color:transparent;
+    border-radius:50px;
+    border:4px solid #E1E9F0;
+    text-align: center;   
+    font-size:16px;
+    color: #E1E9F0;
+    padding:10px;
+    text-decoration:none;
+    font-weight: bold;
+
+  
+  left: 16px;
+  top: 21px;
+  }
+  .myButton:hover {
+    background-color:#a8a8a8;
+  }
+  .myButton:active {
+    position:relative;
+    top:1px;
+  }
+
+@media only screen and (max-width: 768px) {
+  #content {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 100%;
+    bottom: -100%;
+
+    background: rgba(34, 46, 58, 0.35);
+    opacity: 0;
+
+    /* Look at what backdrop filter does */
+    /* backdrop-filter: blur(22px); */
+  }
+
+  h1 {
+    text-align: center;
   }
 
   h4 {
@@ -81,26 +435,83 @@ html, body {
     line-height: 30px;
     padding: 20px;
   }
+  #c02 {
 
+  }
+
+  #cLanding {
+  position: absolute;
+  width: 215px;
+  height: 192px;
+  left: 24px;
+  top: 150px;
+  }
+
+  #pLanding {
+  width: 327px;
+  height: 87px;
+  left: 24px;
+  top: 351px;
+    /* font-size: 15px;
+    line-height: 30px;
+    padding: 20px; */
+  }
+
+  #pLandingB {
+    width: 327px;
+  height: 87px;
+  left: 24px;
+  top: 451px;
+  }
 
   #content {
-    /*position: absolute;*/
     margin-top: 100px;
     font-size: 2em;
     text-align: center;
     display: block;
   }  
 
-  #c0 {
-    background-image: url("img/floating\ bottle.png");
-    width: auto;
-    height: auto;
+  #footer {
+    padding-right: 100vw;
+    background-color: #222E3A;
+    padding: 20px;
   }
+
+  /* #c0 {
+    background-color: #0f3b61;
+    font-size: 36px;
+    font-style: normal;
+    line-height: 43px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    padding: 20px;
+  } */
+
+
+  #headContainer {
+    width: 500px;
+    padding-left: 20px;
+  }
+
+  #headingMain {
+    color: #E1E9F0;
+    margin-bottom: 0px;
+    font-size: 3em;
+  }
+
+  #pMain {
+    font-size: 18px;
+    font-family: Poppins;
+    color: #E1E9F0; 
+    line-height: 30px;
+    width: 45%;
+  }
+
+
+  /* Quantity Section */
 
   #c1 {
-    /*position: absolute;*/
     background-color: #2273B8;
-    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; Quiet Sans; */
     font-size: 36px;
     font-style: normal;
     line-height: 43px;
@@ -109,11 +520,49 @@ html, body {
     padding: 20px;
   }
 
-  #c2{
-    /*position: absolute;*/
-    /* background-color: #0f3b61; */
+  #c1aHeading {
+    display: none;
+  }
+
+  #c1Content {
+    padding: 20px;
+    height: 100vh;
+  }
+
+  /* Not really doing anything as it is hidden */
+  /* Saying hidden as images will work on web layout but maybe not mobile correctly */
+  #c1a {
+    background-color: #2273B8;
+  }
+
+  #sub1Heading {
+    font-size: 36px;
+    line-height: 43px;
+  }
+
+  #pQ {
+    font-size: 15px;
+    font-family: Poppins;
+    color: #E1E9F0; 
+    line-height: 30px;
+  }
+
+  #qHeading {
+    font-size: 1.3em;
+    color: #E1E9F0;
+    text-align: left;
+  }
+
+  .grid1 {
+    display: flex;
+  }
+
+
+
+  /* The Source Section */
+
+  #c2 {
     background-color: #E1E9F0;
-    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
     font-size: 36px;
     font-style: normal;
     line-height: 43px;
@@ -122,70 +571,152 @@ html, body {
     padding: 20px;
   }
 
+  #c2aHeading {
+    display: none;
+  }
+
+  #c2Content {
+    padding: 20px;
+    height: 100vh;
+  }
+
+  /* Not really doing anything as it is hidden */
+  #c2a {
+    background-color: #2273B8;
+    padding: 0px;
+  }
+
+  #sub2Heading {
+    font-size: 36px;
+    line-height: 43px;
+    width: 300px;
+  }
+
+  #pS {
+    font-size: 15px;
+    font-family: Poppins;
+    color: #222E3A; 
+    line-height: 30px;
+  }
+
+  #sHeading {
+    font-size: 1.3em;
+    color: #2273B8;
+    text-align: left;
+  }
+
+  .grid2 {
+    display: flex;
+  }
+
+
+
+  /* Effects and Take Action Section  */
+
+  /* Effects */
   #c3 {
-    /*position: absolute;*/
     background-color: #2273B8;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 36px;
     font-style: normal;
     line-height: 43px;
     letter-spacing: 0.02em;
     text-align: left;
     padding: 20px;
-}
+  }
 
-#c4{
-    /*position: absolute;*/
-    /* background-color: #0f3b61; */
+  #c3Content {
+    padding: 20px;
+    height: 100vh;
+  }
+
+  #eHeading {
+    color: #E1E9F0;
+    text-align: left;
+    font-size: 1.3em;
+  }
+
+  #sub3Heading {
+    font-size: 36px;
+    line-height: 43px;
+    color: #222E3A;
+    width: 300px;
+  } 
+
+  .pE {
+    font-size: 15px;
+    font-family: Poppins;
+    color: #E1E9F0; 
+    line-height: 30px;
+    margin-right: 30px;
+  }
+
+  /* Take Action */
+  #c4 {
     background-color: #E1E9F0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 36px;
     font-style: normal;
     line-height: 43px;
     letter-spacing: 0.02em;
     text-align: left;
     padding: 20px;
-}
-
-#footer {
-  padding-right: 100vw;
-  background-color: #222E3A;
-  padding: 20px;
-}
-
-
-@media only screen and (max-width: 576px) {
-  #content {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 100%;
-    bottom: -100%;
-
-    background: rgba(34, 46, 58, 0.35);
-    opacity: 0;
-
-    /* Look at what backdrop filter does */
-    /* filter: blur(22px); */
-    /* backdrop-filter: blur(22px); */
   }
-}
 
-@media only screen and (max-width: 768px) {
-  #content {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 100%;
-    bottom: -100%;
-
-    background: rgba(34, 46, 58, 0.35);
-    opacity: 0;
-
-    /* Look at what backdrop filter does */
-    /* backdrop-filter: blur(22px); */
+  #c4Content {
+    padding: 20px;
+    height: 100vh;
   }
+
+  #tHeading {
+    color: #2273B8;
+    text-align: left;
+    font-size: 1.3em;
+  }
+
+  #sub4Heading {
+    font-size: 36px;
+    line-height: 43px;
+    width: 300px;
+    color: #222E3A;
+  } 
+
+  .pT {
+    font-size: 15px;
+    font-family: Poppins;
+    color: #222E3A;
+    line-height: 30px; 
+    margin-right: 50px;
+  }
+
+  button {
+    border: none;
+    font-size: 15px;
+    font-weight: 100;
+    background-color: #2273B8;
+    color: white;
+    padding: 20px 30px;
+    width: 300px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+
+  #buttonContainer {
+    text-align: left;
+  }
+
+  .grid3 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50% 50%;
+  }
+
 }
+
+
+/* Old Code and a lot of random stuff */
+
+
+
 /* Beginning page css */
 /* position: absolute;
 width: 375px;
@@ -195,12 +726,151 @@ top: 0px;
 
 background: url(underwater_light.png); */
 
-
 /* power of change css */
-
 
 /* Note: backdrop-filter has minimal browser support */
 
 /*transform: matrix(1, 0, 0, -1, 0, 0); */
 
 
+
+/* 
+@media only screen and (max-width: 576px) {
+  #content {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 100%;
+    bottom: -100%;
+
+    background: rgba(34, 46, 58, 0.35);
+    opacity: 0; */
+
+    /* Look at what backdrop filter does */
+    /* filter: blur(22px); */
+    /* backdrop-filter: blur(22px); */
+  /* }
+} */
+
+
+
+
+/* button{
+  border: none;
+  font-size: 15px;
+  font-weight: 100;
+  background-color: #2273B8;
+  color: white;
+  text-align: center;
+  padding: 20px 30px;
+  width: 300px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.pW {
+  font-size: 15px;
+  font-family: Poppins;
+  color: #E1E9F0; 
+  line-height: 30px;
+}
+
+.pB {
+  font-size: 15px;
+  font-family: Poppins;
+  color: #222E3A;
+  line-height: 30px; 
+}
+
+h1 {
+  text-align: center;
+}
+
+#cHeadingW {
+  color: #E1E9F0;
+}
+
+#cHeadingB {
+  color: #2273B8;
+}
+
+
+h3 {
+  color: #222E3A;
+}
+
+h4 {
+  color: #E1E9F0;
+}
+
+#headingMain {
+  color: #E1E9F0;
+  font-size: 2em;
+  padding: 20px;
+}
+
+#pMain {
+  font-size: 15px;
+  font-family: Poppins;
+  color: #E1E9F0; 
+  line-height: 30px;
+  padding: 20px;
+}
+
+
+#content {
+  margin-top: 100px;
+  font-size: 2em;
+  text-align: center;
+  display: block;
+}  
+
+#c0 {
+  
+}
+
+#c1 {
+  background-color: #2273B8;
+  font-size: 36px;
+  font-style: normal;
+  line-height: 43px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding: 20px;
+}
+
+#c2 {
+  background-color: #E1E9F0;
+  font-size: 36px;
+  font-style: normal;
+  line-height: 43px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding: 20px;
+}
+
+#c3 {
+  background-color: #2273B8;
+  font-size: 36px;
+  font-style: normal;
+  line-height: 43px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding: 20px;
+}
+
+#c4 {
+  background-color: #E1E9F0;
+  font-size: 36px;
+  font-style: normal;
+  line-height: 43px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding: 20px;
+}
+
+#footer {
+  padding-right: 100vw;
+  background-color: #222E3A;
+  padding: 20px;
+} */
